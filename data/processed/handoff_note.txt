@@ -1,0 +1,47 @@
+Random seed: 42, test size: 0.2
+Data is NOT scaled and NOT PCA'd yet.
+Fit Z-score + PCA on X_train only, then apply to X_test.
+
+Expression raw shape (genes x samples): (20530, 1218)
+
+Expression after transpose (samples x genes): (1218, 20530)
+
+Genes with unknown symbol ('?') dropped: 29
+
+Phenotype raw shape: (1247, 193)
+
+Samples with missing subtype label: 291
+
+Samples in expression: 1218, with labels: 956, in both: 956
+
+Genes dropped for missing values: 0
+
+Final cleaned matrix before split: (956, 20501)
+
+Class counts (all data):
+PAM50Call_RNAseq
+LumA      434
+LumB      194
+Basal     142
+Normal    119
+Her2       67
+
+Genes with zero variance removed: 305
+
+Train: (764, 20196), Test: (192, 20196)
+
+Train class counts:
+PAM50Call_RNAseq
+LumA      347
+LumB      155
+Basal     113
+Normal     95
+Her2       54
+
+Test class counts:
+PAM50Call_RNAseq
+LumA      87
+LumB      39
+Basal     29
+Normal    24
+Her2      13
